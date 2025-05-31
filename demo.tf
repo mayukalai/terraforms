@@ -7,8 +7,7 @@ terraform {
   }
 }
 
-provider "aws" {
-  region = "ap-south-1"
+provider "aws" {  
 }
 
 resource "aws_instance" "this" {
